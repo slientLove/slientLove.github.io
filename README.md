@@ -18,3 +18,6 @@ output:{
   publicPath:"/futures-web-dist",     // 通过publicPath访问静态文件，存在于内存中的虚拟目录
   filename:"js/"+projectName+"/[name].js"   // [name]就是上面配置的名称，如home和coking
 }
+
+## git merge主分支
+  * 提交自己分支之前，先add,commit, 切到master分支，拉下代码，在切换到自己分支，merge一下主分支，没有权限的情况下
